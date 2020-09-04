@@ -1,5 +1,11 @@
-function llamarA (nombre) {
-    console.log (`Hola: ${nombre}`)
+const nombre = ["motz", "alejo", "cope", "teo"]
+
+
+function llamarA (nombre) { 
+    nombre.forEach(element => {
+        
+        console.log (`Hola: ${element}`)
+    });
 
 }
-llamarA ("Motz")
+llamarA (nombre)
