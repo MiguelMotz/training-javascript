@@ -1,4 +1,4 @@
-const nombre = ["motz", "alejo", "cope", "teo"]
+const nombre = ["motz", "alejo", "cope", "teo", 5, 7]
 
 
 function llamarA (nombre) { 
