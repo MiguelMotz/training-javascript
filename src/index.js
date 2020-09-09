@@ -1,4 +1,4 @@
-import './index.scss';
+import './css/index.scss';
 const nombre = ["motz", "alejo", "cope", "teo", 5, 7]
 
 
@@ -9,4 +9,4 @@ function llamarA (nombre) {
     });
 
 }
-llamarA (nombre)
+//llamarA (nombre)
