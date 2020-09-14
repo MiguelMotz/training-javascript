@@ -4,20 +4,52 @@
         margin: 0 auto;
         max-width: 250px;
         width: 100%;
-        border: 1px solid gray;
         text-align: center;
+        box-shadow: 0 0 15px lightslategrey;
+        
+    }
+    &__date {
+        font-size: .8em;
+        color: lightsalmon;
+        margin-bottom :5px;
+    }
+    &__title {
+        font-size: 1.8em;
+        margin-bottom: 10px;
     }
     &__stats {
-        border-top: 1px solid gray;
+        
         display: grid;
-        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-columns: repeat(3, 1fr);
+        li {
+            background: crimson;
+            color: white;
+            list-style: none;
+            padding: 15px 5px;
+            h5 {
+                font-size: 1em;
+
+            }
+        }
     }
-    &__stats li {
-        list-style: none;
-        color: white;
-        background: crimson;
-        padding: 15px 5px;
-        font-size: 2em;
+    &__image {
+        background: lightgray;
+        height: 150px;
+        overflow: hidden;
+        position: relative;
+        
+        img {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) ;
+
+            
+
+        }
+    }
+    &__content {
+        padding: 25px;
     }
 
 }
